@@ -4,3 +4,5 @@ iPhone Swift weather application that gets the current and weekly forecast for a
 Utilizes Google's autocomplete prediction API and time zone API and Dark Sky's forecast API.
 
 Implements asynchrounous network requests, custom delegates and closures, permissions, and motion gestures.
+
+**NOTE:** Needs Google autocomplete precition API key (in AutocompleteService.swift), Google time zone API key (in TimeZoneService.swift), and Dark Sky API key (in LocationListTableViewController.swift and WeatherTableViewController.swift).
